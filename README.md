@@ -56,6 +56,7 @@ class MyLinkedList:
                 cur = cur.next
             newNode = Node(val)
             newNode.next = cur.next
+                         //总是先连尾巴
             cur.next = newNode
         
         self.size +=1
